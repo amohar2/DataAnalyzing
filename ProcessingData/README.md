@@ -88,12 +88,12 @@ I think the provided test in the `insight_testsuite` folder is not correct as th
     01/Jul/1995:00:00:08 -0400,8
     01/Jul/1995:00:00:09 -0400,8
     01/Jul/1995:00:00:10 -0400,7
-    …
+   
 
 These outputs are not correct, as based on explanation for feature 3, it should list in descending order the site’s 10 busiest (i.e. most frequently visited) 60-minute period. However as we can wee, the provided output results are printed per each second, not each 60-min!
 So I changed this target output to the correct one to list:
 
     01/Jul/1995:00:00:01 -0400,10
-    …
+   
 
 
