@@ -244,6 +244,7 @@ with open('../temp/log_input/log.txt') as f:
 			nasa_map[site_date_time] -= 1
 			site_access = 1
 			site_date_time = date_time
+			nasa_map[site_date_time] = site_access
 
 ###################### PRINTING INFORMATION ######################
 #printing user_map info	
