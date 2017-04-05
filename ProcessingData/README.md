@@ -42,22 +42,22 @@ Feature 6 : also studies about the failure attempts of the hosts/IP to check how
 # Data Structure Used For Analyzing Data
 ## Storing information for each user and website
 Since we want to explore the features of the users and websites, so we use two `class` for storing their information: 
-- **user_info** for storing information for each user:
-1. How many times a user accessed a site.		
-2. The total number of the failure attempts.  
-3. 3 consecutive failure attempts.        
-4. Time for the first failure attempts.  
-5. Date for the first failure attempts.  
-6. Time for the first blocked attempts. 			
-7. Date for the first block attempts.		
-8. Time (seconds) user accessed a site.
-9. Date (DD/MON/YYYY) user accessed a site.
-10. Website a user accessed.
-11. Total amount of bytes user used.	
+1. **user_info** for storing information for each user:
+* How many times a user accessed a site.		
+* The total number of the failure attempts.  
+* Three consecutive failure attempts.        
+* Time for the first failure attempts.  
+* Date for the first failure attempts.  
+* Time for the first blocked attempts. 			
+* Date for the first block attempts.		
+* Time (seconds) user accessed a site.
+* Date (DD/MON/YYYY) user accessed a site.
+* Website a user accessed.
+* Total amount of bytes user used.	
 
-- **web_info** for storing information for each web address:
-1. How many times a website was accessed .		
-2. How many bytes was transferred in each attempts.	
+2. **web_info** for storing information for each web address:
+* How many times a website was accessed .		
+* How many bytes was transferred in each attempts.	
 
 ## Storing all information 
 In order to use less possible amount of memory and having efficient data access, we use hashmaps:
